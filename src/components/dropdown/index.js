@@ -115,11 +115,11 @@ export default class Dropdown extends PureComponent {
     }
   }
 
-  componentDidMount() {
+  UNSAFE_componentDidMount() {
     this.mounted = true;
   }
 
-  componentWillUnmount() {
+  UNSAFE_componentWillUnmount() {
     this.mounted = false;
   }
 
